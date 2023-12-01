@@ -9,6 +9,7 @@ En el contexto de React, SSR implica renderizar los componentes de React en el s
 
 
 ## Contenido
+```
 RAPPID BACKEND APP/
 ├─ client/
 │  ├─ index.js
@@ -25,33 +26,34 @@ RAPPID BACKEND APP/
 │  │  ├─ index.html
 │  │  ├─ img/
 │  ├─ index.js
+```
 
 ## Despliegue
 
 Clonar branch master
 
-´´´
+```
 git clone -b master https://github.com/rappidtech/ssr-react-app.git
 cd ssr-react-app
 npm install
-´´´
+```
 
 ### Para iniciar en desarrollo:
-´´´
+```
 npm run build-dev
-´´´
+```
 Esto creara un archivo bundle.js en server/public/
 Luego iniciar el servidor en el puerto 3000 con
-´´´
+```
 npm run dev
-´´´
+```
 Esto deberia renderizar todo el contenido y los estilos en la nueva pagina de enlaces
 server/index.js es el que genera el servidor y maneja las rutas de donde se levanta el nuevo archivo
 
 ### Para iniciar producción
-´´´
+```
 npm run build-esbuild
-´´´
+```
 Esto compilara los archivos bundle.js, bundle.js.map y el archivo server/public/index.html se podra ejecutar en el navegador, abriendo el archivo
 
 
