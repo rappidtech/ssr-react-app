@@ -1,0 +1,9 @@
+/node_modules/
+/dist/
+/server/public/bundle.js
+/server/public/bundle.css
+/server/public/bundle.js.map
+/server/public/bundle.css.map
+/server/public/bundle.js.LICENSE.txt
+
+
