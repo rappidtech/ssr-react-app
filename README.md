@@ -9,7 +9,7 @@ En el contexto de React, SSR implica renderizar los componentes de React en el s
 
 
 ## Contenido
-```
+```bash
 RAPPID BACKEND APP/
 ├─ client/
 │  ├─ index.js
