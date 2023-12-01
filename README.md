@@ -9,7 +9,6 @@ En el contexto de React, SSR implica renderizar los componentes de React en el s
 
 
 ## Contenido
-´´´
 RAPPID BACKEND APP/
 ├─ client/
 │  ├─ index.js
@@ -26,7 +25,7 @@ RAPPID BACKEND APP/
 │  │  ├─ index.html
 │  │  ├─ img/
 │  ├─ index.js
-´´´
+
 ## Despliegue
 
 Clonar branch master
